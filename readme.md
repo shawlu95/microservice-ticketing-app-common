@@ -20,6 +20,15 @@ We write typescript but publish javasript to NPM after transpire.
 ```bash
 tsc --init
 npm install typescript del-cli --save-dev
+
+npm install express \
+  express-validator \
+  cookie-session \
+  jsonwebtoken \
+  http-status-codes \
+  @types/cookie-session \
+  @types/express \
+  @types/jsonwebtoken
 ```
 
 ### Patch
