@@ -21,3 +21,15 @@ We write typescript but publish javasript to NPM after transpire.
 tsc --init
 npm install typescript del-cli --save-dev
 ```
+
+### Patch
+
+The steps can be condensed into "pub" script in [package.json](./package.json).
+
+```bash
+git add .
+git commit -m "Some message"
+npm version patch
+npm run build
+npm publish
+```
