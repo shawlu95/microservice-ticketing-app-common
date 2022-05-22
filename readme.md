@@ -9,3 +9,12 @@
 npm login
 npm publish --access public
 ```
+
+### Set up typescript
+
+We write typescript but publish javasript to NPM after transpire.
+
+```bash
+tsc --init
+npm install typescript del-cli --save-dev
+```
