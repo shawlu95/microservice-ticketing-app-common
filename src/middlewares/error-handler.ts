@@ -16,6 +16,7 @@ export const errorHandler = (
     return res.status(err.statusCode).send({ errors: err.serializeErrors() });
   }
 
+  console.error(err);
   res.status(StatusCodes.BAD_REQUEST).send({
     errors: [{ message: err.message }],
   });
