@@ -1,6 +1,6 @@
 {
-  "name": "@shawtickets/common",
-  "version": "1.0.10",
+  "name": "@shawticketing/common",
+  "version": "1.0.0",
   "description": "",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
