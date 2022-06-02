@@ -13,6 +13,8 @@ export * from './middlewares/validate-request';
 export * from './events/subjects';
 export * from './events/ticket-created-event';
 export * from './events/ticket-updated-event';
+export * from './events/order-created-event';
+export * from './events/order-cancelled-event';
 
 export * from './clients/base-listener';
 export * from './clients/base-publisher';
