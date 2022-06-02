@@ -16,3 +16,5 @@ export * from './events/ticket-updated-event';
 
 export * from './clients/base-listener';
 export * from './clients/base-publisher';
+
+export * from './events/types/order-status';
